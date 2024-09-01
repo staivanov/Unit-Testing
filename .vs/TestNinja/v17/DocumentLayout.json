@@ -1,38 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "P:\\Unit Testing\\source-code-starter\\TestNinja\\",
+  "WorkspaceRootPath": "P:\\Unit Testing\\TestNinja\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|p:\\unit testing\\source-code-starter\\testninja\\testninja\\mocking\\bookinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|solutionrelative:testninja\\mocking\\bookinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|p:\\unit testing\\source-code-starter\\testninja\\testninja\\fundamentals\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|solutionrelative:testninja\\fundamentals\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|p:\\unit testing\\source-code-starter\\testninja\\testninja\\fundamentals\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|solutionrelative:testninja\\fundamentals\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|p:\\unit testing\\source-code-starter\\testninja\\testninja\\fundamentals\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|solutionrelative:testninja\\fundamentals\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|p:\\unit testing\\source-code-starter\\testninja\\testninja\\fundamentals\\math.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|solutionrelative:testninja\\fundamentals\\math.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|p:\\unit testing\\source-code-starter\\testninja\\testninja\\fundamentals\\fizzbuzz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|solutionrelative:testninja\\fundamentals\\fizzbuzz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|p:\\unit testing\\source-code-starter\\testninja\\testninja\\fundamentals\\errorlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|solutionrelative:testninja\\fundamentals\\errorlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|p:\\unit testing\\source-code-starter\\testninja\\testninja\\fundamentals\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|solutionrelative:testninja\\fundamentals\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04D7D1A4-4D68-4BE4-80C5-381A6DBA6189}|TestNinja.UnitTests\\TestNinja.UnitTests.csproj|p:\\unit testing\\testninja\\testninja.unittests\\reservationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04D7D1A4-4D68-4BE4-80C5-381A6DBA6189}|TestNinja.UnitTests\\TestNinja.UnitTests.csproj|solutionrelative:testninja.unittests\\reservationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -85,107 +57,20 @@
               "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookingHelper.cs",
-              "DocumentMoniker": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Mocking\\BookingHelper.cs",
-              "RelativeDocumentMoniker": "TestNinja\\Mocking\\BookingHelper.cs",
-              "ToolTip": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Mocking\\BookingHelper.cs",
-              "RelativeToolTip": "TestNinja\\Mocking\\BookingHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ReservationTests.cs",
+              "DocumentMoniker": "P:\\Unit Testing\\TestNinja\\TestNinja.UnitTests\\ReservationTests.cs",
+              "RelativeDocumentMoniker": "TestNinja.UnitTests\\ReservationTests.cs",
+              "ToolTip": "P:\\Unit Testing\\TestNinja\\TestNinja.UnitTests\\ReservationTests.cs",
+              "RelativeToolTip": "TestNinja.UnitTests\\ReservationTests.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T19:22:28.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Stack.cs",
-              "DocumentMoniker": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Fundamentals\\Stack.cs",
-              "RelativeDocumentMoniker": "TestNinja\\Fundamentals\\Stack.cs",
-              "ToolTip": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Fundamentals\\Stack.cs",
-              "RelativeToolTip": "TestNinja\\Fundamentals\\Stack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T19:22:25.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Fundamentals\\Reservation.cs",
-              "RelativeDocumentMoniker": "TestNinja\\Fundamentals\\Reservation.cs",
-              "ToolTip": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Fundamentals\\Reservation.cs",
-              "RelativeToolTip": "TestNinja\\Fundamentals\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T19:22:24.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PhoneNumber.cs",
-              "DocumentMoniker": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Fundamentals\\PhoneNumber.cs",
-              "RelativeDocumentMoniker": "TestNinja\\Fundamentals\\PhoneNumber.cs",
-              "ToolTip": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Fundamentals\\PhoneNumber.cs",
-              "RelativeToolTip": "TestNinja\\Fundamentals\\PhoneNumber.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T19:22:21.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Math.cs",
-              "DocumentMoniker": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Fundamentals\\Math.cs",
-              "RelativeDocumentMoniker": "TestNinja\\Fundamentals\\Math.cs",
-              "ToolTip": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Fundamentals\\Math.cs",
-              "RelativeToolTip": "TestNinja\\Fundamentals\\Math.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T19:22:20.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FizzBuzz.cs",
-              "DocumentMoniker": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Fundamentals\\FizzBuzz.cs",
-              "RelativeDocumentMoniker": "TestNinja\\Fundamentals\\FizzBuzz.cs",
-              "ToolTip": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Fundamentals\\FizzBuzz.cs",
-              "RelativeToolTip": "TestNinja\\Fundamentals\\FizzBuzz.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T19:22:19.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ErrorLogger.cs",
-              "DocumentMoniker": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Fundamentals\\ErrorLogger.cs",
-              "RelativeDocumentMoniker": "TestNinja\\Fundamentals\\ErrorLogger.cs",
-              "ToolTip": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Fundamentals\\ErrorLogger.cs",
-              "RelativeToolTip": "TestNinja\\Fundamentals\\ErrorLogger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T19:22:18.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Fundamentals\\CustomerController.cs",
-              "RelativeDocumentMoniker": "TestNinja\\Fundamentals\\CustomerController.cs",
-              "ToolTip": "P:\\Unit Testing\\source-code-starter\\TestNinja\\TestNinja\\Fundamentals\\CustomerController.cs",
-              "RelativeToolTip": "TestNinja\\Fundamentals\\CustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T19:22:15.923Z",
+              "WhenOpened": "2024-09-01T21:01:08.997Z",
               "EditorCaption": ""
             }
           ]
