@@ -6,7 +6,6 @@ namespace TestNinja.UnitTests
     [TestFixture]
     public class ErrorLoggerTests
     {
-
         public void Log_WhenCalled_SetTheLastErrorProperty()
         {
             ErrorLogger logger = new ErrorLogger();
@@ -17,8 +16,16 @@ namespace TestNinja.UnitTests
         }
 
 
+        [Test]
+        [TestCase(null)]
+        [TestCase("")]
+        [TestCase(" ")]
+        public void Log_InvalidError_ThrowArgumentNullException(string error)
+        {
+            ErrorLogger logger = new ErrorLogger();
+            //logger.Log(error);
 
-
-
+            Assert.That(() => logger.Log(error), Throws.ArgumentNullException);
+        }
     }
 }
