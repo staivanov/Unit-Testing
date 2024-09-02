@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "P:\\Unit Testing\\TestNinja\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{04D7D1A4-4D68-4BE4-80C5-381A6DBA6189}|TestNinja.UnitTests\\TestNinja.UnitTests.csproj|p:\\unit testing\\testninja\\testninja.unittests\\mathtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04D7D1A4-4D68-4BE4-80C5-381A6DBA6189}|TestNinja.UnitTests\\TestNinja.UnitTests.csproj|solutionrelative:testninja.unittests\\mathtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{04D7D1A4-4D68-4BE4-80C5-381A6DBA6189}|TestNinja.UnitTests\\TestNinja.UnitTests.csproj|p:\\unit testing\\testninja\\testninja.unittests\\reservationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04D7D1A4-4D68-4BE4-80C5-381A6DBA6189}|TestNinja.UnitTests\\TestNinja.UnitTests.csproj|solutionrelative:testninja.unittests\\reservationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|p:\\unit testing\\testninja\\testninja\\fundamentals\\math.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7328740E-4B78-464F-8352-65D887F2145F}|TestNinja\\TestNinja.csproj|solutionrelative:testninja\\fundamentals\\math.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,14 +69,44 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MathTests.cs",
+              "DocumentMoniker": "P:\\Unit Testing\\TestNinja\\TestNinja.UnitTests\\MathTests.cs",
+              "RelativeDocumentMoniker": "TestNinja.UnitTests\\MathTests.cs",
+              "ToolTip": "P:\\Unit Testing\\TestNinja\\TestNinja.UnitTests\\MathTests.cs",
+              "RelativeToolTip": "TestNinja.UnitTests\\MathTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T04:39:08.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Math.cs",
+              "DocumentMoniker": "P:\\Unit Testing\\TestNinja\\TestNinja\\Fundamentals\\Math.cs",
+              "RelativeDocumentMoniker": "TestNinja\\Fundamentals\\Math.cs",
+              "ToolTip": "P:\\Unit Testing\\TestNinja\\TestNinja\\Fundamentals\\Math.cs",
+              "RelativeToolTip": "TestNinja\\Fundamentals\\Math.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T04:38:15.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ReservationTests.cs",
               "DocumentMoniker": "P:\\Unit Testing\\TestNinja\\TestNinja.UnitTests\\ReservationTests.cs",
               "RelativeDocumentMoniker": "TestNinja.UnitTests\\ReservationTests.cs",
               "ToolTip": "P:\\Unit Testing\\TestNinja\\TestNinja.UnitTests\\ReservationTests.cs",
               "RelativeToolTip": "TestNinja.UnitTests\\ReservationTests.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T21:01:08.997Z",
               "EditorCaption": ""
