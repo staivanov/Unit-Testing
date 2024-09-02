@@ -4,16 +4,20 @@
     {
         public ActionResult GetCustomer(int id)
         {
-            if (id == 0)
+            int notFoundCount = 0;
+
+            if (id == notFoundCount)
+            {
                 return new NotFound();
-            
+            }
+
             return new Ok();
-        }        
+        }
     }
-    
+
     public class ActionResult { }
-    
+
     public class NotFound : ActionResult { }
- 
+
     public class Ok : ActionResult { }
 }
