@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using NUnit.Framework.Constraints;
 using System;
 using TestNinja.Fundamentals;
 
@@ -39,8 +38,18 @@ namespace TestNinja.UnitTests
                 emptyGuid = Guid.Empty;
             logger.ErrorLogged += (sender, args) => { id = args; };
             logger.Log("a");
-            
+
             Assert.That(id, Is.Not.EqualTo(emptyGuid));
+        }
+
+        [Test]
+        public void OnErrorLogged_WhenCalled_RaisedEvent()
+        {
+            ErrorLogger logger = new ErrorLogger();
+            Guid id = Guid.Empty;
+            logger.ErrorLogged += (sender, args) => { id = args; };
+
+            Assert.That(id, Is.EqualTo(Guid.Empty));
         }
     }
 }
