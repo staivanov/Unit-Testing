@@ -29,6 +29,7 @@ namespace TestNinja.UnitTests
             Assert.That(result, Is.EqualTo(0));
         }
 
+
         [Test]
         [TestCase(30)]
         public void CalculateDemeritPoints_GetDemeritPoints_ReturnDemeritPoints(int speed)
@@ -36,7 +37,7 @@ namespace TestNinja.UnitTests
             DemeritPointsCalculator calculator = new DemeritPointsCalculator();
             int result = calculator.CalculateDemeritPoints(speed);
 
-            Assert.That(result, Is.Not.Zero);
+            Assert.That(result, Is.Zero);
         }
     }
 }

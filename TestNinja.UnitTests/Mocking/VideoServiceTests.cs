@@ -24,7 +24,7 @@ namespace TestNinja.UnitTests.Mocking
             string emptyString = "",
                    path = "video.txt";
 
-            _fileReader.Setup(fr => fr.Read(path)).Returns("");
+            _fileReader.Setup(fr => fr.Read(path)).Returns(emptyString);
 
             string result = _service.ReadVideoTitle();
             string errorMessage = "error";
