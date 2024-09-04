@@ -121,6 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomerControllerTests.cs" />
+    <Compile Include="DemeritPointsCalculatorTests.cs" />
     <Compile Include="ErrorLoggerTests.cs" />
     <Compile Include="FizzBuzzTests.cs" />
     <Compile Include="HtmlFormatterTests.cs" />
