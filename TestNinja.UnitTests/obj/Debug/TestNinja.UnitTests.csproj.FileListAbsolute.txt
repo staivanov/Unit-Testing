@@ -1,0 +1,2 @@
+P:\Unit Testing\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.csproj.AssemblyReference.cache
+P:\Unit Testing\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.csproj.CoreCompileInputs.cache
