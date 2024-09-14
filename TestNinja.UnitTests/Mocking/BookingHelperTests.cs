@@ -10,31 +10,54 @@ namespace TestNinja.UnitTests
     [TestFixture]
     public class BookingHelperTests
     {
+        private Booking _booking;
+        private Mock<IBookingRepository> _repository;
 
-        [Test]
-        public void OverlappingBookingsExist_BookingStartsAndFinishesBeforeAnExistingBooking_Return_Empty_String()
+        [SetUp]
+        public void SetUp()
         {
-            var repository = new Mock<IBookingRepository>();
-            repository.Setup(r => r.GetActiveBooking(1)).Returns(new List<Booking>
-            {
-               new Booking {
-                   Id = 2,
-                   ArrivalDate = new DateTime(2023, 4, 10, 2, 0, 0),
-                   DepartureDate = new DateTime(2023, 4, 11, 5, 0,0)
-               }
-            }.AsQueryable());
-
-
-            Booking secondBooking = new Booking
+            _booking = new Booking
             {
                 Id = 2,
-                ArrivalDate = new DateTime(2023, 5, 15, 2, 0, 0),
-                DepartureDate = new DateTime(2023, 5, 16, 8, 0, 0)
+                ArrivalDate = ArriveOn(2023, 4, 10),
+                DepartureDate = DepartedOn(2023, 4, 11)
             };
 
-            var result = BookingHelper.OverlappingBookingsExist(secondBooking, repository.Object);
+            _repository = new Mock<IBookingRepository>();
+
+            _repository.Setup(r => r.GetActiveBooking(1)).Returns(new List<Booking>
+                {
+                    _booking
+                }.AsQueryable());
+        }
+
+
+        [Test]
+        public void BookingStartsAndFinishesBeforeAnExistingBooking_ReturnEmptyString()
+        {
+            Booking firstBooking = new Booking
+            {
+                Id = 1,
+                ArrivalDate = Before(_booking.ArrivalDate, 2),
+                DepartureDate = Before(_booking.ArrivalDate)
+            };
+
+            string result = BookingHelper.OverlappingBookingsExist(firstBooking, _repository.Object);
 
             Assert.That(result, Is.Empty);
         }
+
+
+        private DateTime Before(DateTime dateTime, int days = 1)
+            => dateTime.AddDays(-days);
+
+        private DateTime After(DateTime dateTime)
+            => dateTime.AddDays(1);
+
+        private DateTime ArriveOn(int year, int month, int day)
+            => new DateTime(year, month, day);
+
+        private DateTime DepartedOn(int year, int month, int day)
+            => new DateTime(year, month, day);
     }
 }
