@@ -126,6 +126,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mocking\BookingHelperTests.cs" />
     <Compile Include="CustomerControllerTests.cs" />
     <Compile Include="DemeritPointsCalculatorTests.cs" />
     <Compile Include="ErrorLoggerTests.cs" />
@@ -138,6 +139,7 @@
     <Compile Include="Product\ProductTests.cs" />
     <Compile Include="ReservationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stack\StackTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
