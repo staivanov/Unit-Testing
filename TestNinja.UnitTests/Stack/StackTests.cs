@@ -6,7 +6,7 @@ namespace TestNinja.UnitTests.Stack
     [TestFixture]
     public class StackTests
     {
-
+        #region Push method tests
         [Test]
         [TestCase(5)]
         [TestCase("Good morning!")]
@@ -22,7 +22,6 @@ namespace TestNinja.UnitTests.Stack
             Assert.That(isStackIncreases);
         }
 
-
         [Test]
         public void Push_ArgumentIsNull_ShouldThrowArgumentNullException()
         {
@@ -30,10 +29,10 @@ namespace TestNinja.UnitTests.Stack
 
             Assert.That(() => myStack.Push(null), Throws.ArgumentNullException);
         }
-
+        #endregion
 
         [Test]
-        public void EmptyStack_ZeroItems_ReturnZero()
+        public void EmptyStack_ZeroObjects_ReturnZero()
         {
             Stack<object> myStack = new Stack<object>();
             int stackCount = myStack.Count;
@@ -42,7 +41,7 @@ namespace TestNinja.UnitTests.Stack
         }
 
 
-
+        #region Pop method tests
         [Test]
         public void Pop_StackWithObjects_ReturnObjOnTheTop()
         {
@@ -81,13 +80,33 @@ namespace TestNinja.UnitTests.Stack
 
             Assert.That(() => myStack.Pop(), Throws.InvalidOperationException);
         }
+        #endregion
 
 
+        #region Peek method tests
+        [Test]
+        public void Peek_StackIsEmpty_ThrowInvalidOperationException()
+        {
+            Stack<object> myStack = new Stack<object>();
+
+            Assert.That(() => myStack.Peek(), Throws.InvalidOperationException);
+        }
 
 
+        [Test]
+        public void Peek_StackHaveObjects_ReturnLastObjectWithoutRemovingIt()
+        {
+            Stack<int> myStack = new Stack<int>();
+            myStack.Push(7);
+            myStack.Push(9);
+            myStack.Push(6);
 
+            int currentStackCount = myStack.Count;
 
+            int objPeeked = myStack.Peek();
 
-
+            Assert.That(myStack.Peek(), Is.EqualTo(objPeeked));
+        }
+        #endregion
     }
 }
