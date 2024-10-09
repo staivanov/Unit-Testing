@@ -18,6 +18,6 @@ This project containts two main folders: TestNinja and TestNinja.UnitTests. Cont
 | | |
 
 ## How to Use the Project
-Clone or download this repo. Open *.sln file with compatible IDE.
+Clone or download this repo. Open *.sln file with a compatible IDE.
 
 
