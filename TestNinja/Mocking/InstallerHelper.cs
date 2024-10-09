@@ -8,7 +8,8 @@ namespace TestNinja.Mocking
 
         public bool DownloadInstaller(string customerName, string installerName)
         {
-            var client = new WebClient();
+            WebClient client = new WebClient();
+
             try
             {
                 client.DownloadFile(
@@ -21,7 +22,7 @@ namespace TestNinja.Mocking
             }
             catch (WebException)
             {
-                return false; 
+                return false;
             }
         }
     }

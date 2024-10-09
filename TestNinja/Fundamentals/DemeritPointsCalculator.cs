@@ -6,18 +6,27 @@ namespace TestNinja.Fundamentals
     {
         private const int SpeedLimit = 65;
         private const int MaxSpeed = 300;
-        
+
         public int CalculateDemeritPoints(int speed)
         {
-            if (speed < 0 || speed > MaxSpeed) 
+            bool isSpeedPossitive = speed < 0,
+                isSpeedExceedMaxSpeed = speed > MaxSpeed,
+                isSpeedIsBelowOrEqualSpeedLimit = speed <= SpeedLimit;
+
+            if (isSpeedPossitive || isSpeedExceedMaxSpeed)
+            {
                 throw new ArgumentOutOfRangeException();
-            
-            if (speed <= SpeedLimit) return 0; 
-            
+            }
+
+            if (isSpeedIsBelowOrEqualSpeedLimit)
+            {
+                return 0;
+            }
+
             const int kmPerDemeritPoint = 5;
-            var demeritPoints = (speed - SpeedLimit)/kmPerDemeritPoint;
+            int demeritPoints = (speed - SpeedLimit) / kmPerDemeritPoint;
 
             return demeritPoints;
-        }        
+        }
     }
 }

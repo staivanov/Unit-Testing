@@ -6,15 +6,14 @@
 
         public float GetPrice(Customer customer)
         {
-            if (customer.IsGold)
+            bool isCustomerGold = customer.IsGold;
+
+            if (isCustomerGold)
+            {
                 return ListPrice * 0.7f;
+            }
 
             return ListPrice;
         }
-    }
-
-    public class Customer
-    {
-        public bool IsGold { get; set; }
     }
 }

@@ -5,6 +5,7 @@ namespace TestNinja.Fundamentals
     public class ErrorLogger
     {
         public string LastError { get; set; }
+        private Guid _errorId;
 
         public event EventHandler<Guid> ErrorLogged;
 
@@ -16,11 +17,12 @@ namespace TestNinja.Fundamentals
             }
 
             LastError = error;
-
-            // Write the log to a storage
-            // ...
-
-            ErrorLogged?.Invoke(this, Guid.NewGuid());
+            _errorId = new Guid();
+            OnErrorLogged(Guid.NewGuid());
         }
+
+        //Implementation detail. It can change to one version to another.
+        public virtual void OnErrorLogged(Guid errorId)
+            => ErrorLogged?.Invoke(this, errorId);
     }
 }

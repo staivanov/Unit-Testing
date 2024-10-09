@@ -4,16 +4,26 @@
     {
         public static string GetOutput(int number)
         {
-            if ((number % 3 == 0) && (number % 5 == 0))
+            bool isNumberDividedBy3Even = number % 3 == 0,
+                 isNumberDividedBy5Even = number % 5 == 0,
+                 isNumberEven = isNumberDividedBy3Even && isNumberDividedBy5Even;
+
+            if (isNumberEven)
+            {
                 return "FizzBuzz";
+            }
 
-            if (number % 3 == 0)
+            if (isNumberDividedBy3Even)
+            {
                 return "Fizz";
+            }
 
-            if (number % 5 == 0)
+            if (isNumberDividedBy5Even)
+            {
                 return "Buzz";
+            }
 
-            return number.ToString(); 
+            return number.ToString();
         }
     }
 }

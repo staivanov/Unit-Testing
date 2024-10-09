@@ -68,12 +68,27 @@
     <Compile Include="Fundamentals\Reservation.cs" />
     <Compile Include="Fundamentals\Stack.cs" />
     <Compile Include="Fundamentals\User.cs" />
+    <Compile Include="Mocking\ActionResult.cs" />
+    <Compile Include="Mocking\Booking.cs" />
     <Compile Include="Mocking\BookingHelper.cs" />
+    <Compile Include="Mocking\BookingRepository.cs" />
+    <Compile Include="Mocking\Employee.cs" />
+    <Compile Include="Mocking\EmployeeContext.cs" />
     <Compile Include="Mocking\EmployeeController.cs" />
+    <Compile Include="Mocking\IBookingRepository.cs" />
     <Compile Include="Mocking\InstallerHelper.cs" />
-    <Compile Include="Mocking\OrderService.cs" />
-    <Compile Include="Mocking\Product.cs" />
-    <Compile Include="Mocking\VideoService.cs" />
+    <Compile Include="Mocking\OrderService\IStorage.cs" />
+    <Compile Include="Mocking\OrderService\Order.cs" />
+    <Compile Include="Mocking\OrderService\OrderService.cs" />
+    <Compile Include="Mocking\Product\Customer.cs" />
+    <Compile Include="Mocking\Product\Product.cs" />
+    <Compile Include="Mocking\RedirectResult.cs" />
+    <Compile Include="Mocking\UnitOfWork.cs" />
+    <Compile Include="Mocking\VideoService\FileReader.cs" />
+    <Compile Include="Mocking\VideoService\IFileReader.cs" />
+    <Compile Include="Mocking\VideoService\Video.cs" />
+    <Compile Include="Mocking\VideoService\VideoContext.cs" />
+    <Compile Include="Mocking\VideoService\VideoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
