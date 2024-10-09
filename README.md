@@ -1,7 +1,7 @@
 ## Unit Testing with NUnit and Moq
 ## Description
 This project containts two main folders: TestNinja and TestNinja.UnitTests. Contents of one folder mimic the content of the another.
- Code here is based on Udemy coure "Unit Testing for C# Developers".
+ Code here is based on the Udemy coure "Unit Testing for C# Developers".
 ## Table of content
 | Name | Type |
 | --- | --- |
