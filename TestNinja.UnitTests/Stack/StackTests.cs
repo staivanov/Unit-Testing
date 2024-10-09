@@ -17,9 +17,9 @@ namespace TestNinja.UnitTests.Stack
             int currentStackCount = myStack.Count;
             myStack.Push(item);
             int afterPushingItemStackCount = myStack.Count;
-            bool isStackIncrease = (currentStackCount + 1) == afterPushingItemStackCount;
+            bool isStackIncreases = (currentStackCount + 1) == afterPushingItemStackCount;
 
-            Assert.That(isStackIncrease);
+            Assert.That(isStackIncreases);
         }
 
 
@@ -30,6 +30,22 @@ namespace TestNinja.UnitTests.Stack
 
             Assert.That(() => myStack.Push(null), Throws.ArgumentNullException);
         }
+
+
+        [Test]
+        public void EmptyStack_ZeroItems_ReturnZero()
+        {
+            Stack<object> myStack = new Stack<object>();
+            int stackCount = myStack.Count;
+
+            Assert.That(stackCount, Is.EqualTo(0));
+        }
+
+
+
+
+
+
 
     }
 }
