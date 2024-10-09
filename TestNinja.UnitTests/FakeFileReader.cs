@@ -1,5 +1,4 @@
-﻿using System;
-using TestNinja.Mocking;
+﻿using TestNinja.Mocking;
 
 namespace TestNinja.UnitTests
 {
